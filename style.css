@@ -53,6 +53,9 @@ ul {
   gap: 1rem;
   padding: 0.5rem 0;
 }
+.todo-text {
+  flex-grow: 1;
+}
 .close {
   color: red;
   cursor: pointer;

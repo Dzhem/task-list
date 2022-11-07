@@ -16,7 +16,7 @@ function printTodo({ id, userId, title, completed }) {
   const li = document.createElement("li");
   li.classList.add("todo-item");
   li.dataset.id = id;
-  li.innerHTML = `<span>${title} <i>by</i> <b>${getUserName(
+  li.innerHTML = `<span class="todo-text">${title} <i>by</i> <b>${getUserName(
     userId
   )}</b></span>`;
 
