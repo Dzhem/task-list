@@ -139,7 +139,6 @@ async function toggleTodoComplete(todoId, completed) {
   );
 
   const data = await response.json();
-  console.log(data);
 
   if (!response.ok) {
     // Error
