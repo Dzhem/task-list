@@ -142,7 +142,6 @@
       );
 
       const resTodo = await response.json();
-      console.log(resTodo);
 
       printTodo(resTodo);
     } catch (error) {
